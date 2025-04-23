@@ -5,7 +5,13 @@ return {
     bigfile = { enabled = false },
     scroll = { enabled = false },
     picker = {
+      hidden = true, -- show hidden dotfiles
+      ignored = true, -- show .gitignored files
       sources = {
+        files = {
+          hidden = true,
+          ignored = true,
+        },
         explorer = {
           layout = {
             layout = {
